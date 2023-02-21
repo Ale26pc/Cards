@@ -1,0 +1,190 @@
+
+#main-header {
+background: #666;
+color: white;
+height: 60px;
+	
+width: 100%;
+left: 0;
+top: 0;
+position: fixed;
+}
+	
+#main-header a {
+color: #ccc;
+}
+
+#logo-header {
+float: left;
+padding: 10px 0 0 10px;
+text-decoration: none;
+
+}
+#logo-header:hover {
+color: #0b76a6;
+}
+#logo-header .site-name {
+display: block;
+font-weight: 700;
+font-size: 1.2em;
+}
+		
+nav {
+float: right;
+}
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+padding-right: 20px;
+	}
+nav ul li {
+display: inline-block;
+line-height: 80px;
+		}
+nav ul li a {
+display: block;
+padding: 0 10px;
+text-decoration: none;
+}			
+nav ul li a:hover {
+background: #0b76a6;
+}
+	
+h1 {
+  color: #000000;
+text-align: center;
+    }
+
+h2 {
+color: #333;
+  }
+
+.container{
+   width: 70%;
+   margin: auto;
+   display: flex;
+   height: 80px;
+   flex-direction: row;
+   flex: auto;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap:wrap;
+
+}
+.elemento1{
+    background-color: #CC0000;
+    flex: 1 1 auto;
+    margin: 10px;
+   text-align: center;
+   border: 2px solid #333;
+   
+}
+.elemento2{
+    background-color: #66FF66;
+    flex: 1 1 auto;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #333;
+}
+.elemento3{
+    background-color: #3366FF;
+    flex: 1 1 auto;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #333;
+}
+.elemento4{
+    background-color: #CC3333;
+    flex: 1 1 auto;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #333;
+}
+.elemento5{
+    background-color: white;
+    flex: 1 1 auto;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #333;
+}
+.elemento6{
+
+background-color: #990000;
+flex: 1 1 auto;
+margin: 10px;
+text-align: center;
+border: 2px solid #333;
+}
+
+.container-card{
+width:100%;
+flex-direction: row;
+display:flex;
+flex:auto;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap:wrap
+}
+
+.tarjeta{
+width:30%;
+flex: 1 1 auto;
+ margin:20px;
+ background: White;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ flex-wrap:wrap;
+
+}
+
+.tarjeta img{
+width: 70%;
+margin-left: 50px;
+margin-right: 50px;
+}
+.titulo{
+text-align: center;
+
+}
+.descripción{
+text-align: justify;
+border: 20px solid white;
+
+}
+
+.fcc-btn {
+background-color: gray;
+color: white;
+padding:auto;
+text-decoration: none;
+
+}
+
+.fcc-btn:hover {
+  background-color: #ccc;
+}
+
+#main-footer {
+background: #666;
+color: white;
+text-align: center;
+padding: 10px;
+margin-top: 20px;
+
+}
+#main-footer a {
+color: white;
+}	
+
+
+
+
+
+              
+                
+              
+
+
+
+
+
